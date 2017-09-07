@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>WEB STORAGE</title>
+	<meta name="viewport" content="whith=device-whith, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<section>
+	<div class="container">
+		<div id="formulario">
+			<div class="row">
+				<div class="col-lg-12 datos">
+					<div class="form-group">
+						<label form="usr">Name</label>
+						<input type="text" class="form-control" id="nombre">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 datos">
+					<div class="form-group">
+						<label form="usr">Password</label>
+						<input type="text" class="form-control" id="password">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<button type="button" class="btn btn-primary" onclick="guardarDatos()" value="guardar Datos">Guardar Datos</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<p id="datos">Pulsa para ver tu nombre y tu password.</p>
+					<button type="button" class="btn btn-primary" onclick="recuperarDatos()" value="Recuperar Datos"> Recuperar Datos</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Incluir todos tus scripts apartir de este punto -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="js/main.js"></script>
+</body>
+</html>
